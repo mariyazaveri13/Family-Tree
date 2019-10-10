@@ -1,0 +1,121 @@
+body {
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+body, li, option, a, p, span, button {
+    text-transform: capitalize;
+}
+.logo {
+    width: 50px !important;
+    margin-right: 10px !important;
+}
+
+.logo-text {
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 24px;
+    top: 5px;
+    position: relative;
+}
+.footer {
+    background: #000000;
+    color: rgba(255, 255, 255, 0.7);
+}
+a, .btn-link, .card-title {
+    color: #043927 !important;
+}
+a:hover, .btn-link:hover {
+    color: #31de79;
+}
+.btn-success {
+    border: 1px solid #31de79 !important;
+    background:linear-gradient(135deg, #9ff669 0%, #31de79 100%);
+    /* border-radius: 30px; */
+}
+.btn-success:hover {
+    border: 1px solid #31de79 !important;
+    background:linear-gradient(135deg, #31de79 0%, #9ff669 100%);
+}
+.btn {
+    border-radius: 30px;
+}
+.custom-file-label::after {
+    color: #fff;
+    background: linear-gradient(135deg, #9ff669 0%, #31de79 100%);
+}
+.btn-danger.icon-only,
+.btn-success.icon-only {
+    background: transparent;
+    border: none;
+}
+.btn-danger.icon-only i {
+    color: #ff3225;
+    font-size: 16px;;
+}
+.btn-danger.icon-only:hover {
+    color: #d21205;
+    /* background: transparent; */
+}
+
+
+.btn-success.icon-only i {
+    color: #9ff669;
+    font-size: 16px;;
+}
+.btn-success.icon-only:hover {
+    color: #31de79;
+    /* background: transparent; */
+}
+
+.sidebar {
+    /* background:linear-gradient(135deg, #9ff669 0%, #31de79 100%); */
+    background: #31de79
+    ;
+}
+.btn i {
+    margin-right: 0 !important;
+}
+.accordion .card-header {
+    padding: 12px;
+}
+
+.sidebar .nav-item,
+.sidebar .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.sidebar .nav-item.active,
+.sidebar .nav-item.active .nav-link {
+    color: #fff !important;
+}
+.sidebar .nav-item.active,
+.sidebar > .nav:not(.sub-menu) > .nav-item:hover:not(.nav-profile):not(.hover-open) > .nav-link:not([aria-expanded="true"]) {
+    background-color: #04392742;
+}
+
+.sidebar > .nav > .nav-item:not(.nav-profile) > .nav-link:before {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+.active .nav-link:before {
+    border: 2px solidrgba(255, 255, 255, 0.8) !important;
+}
+/*********************************************/
+
+.tree3 ul {
+    list-style: none;
+    padding-left: 30px;
+}
+.tree3 li {
+    padding:5px;
+}
+.tree3 li span {
+    border: solid 2px #9ff669;
+    border-radius: 30px;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #043927;
+    font-size: 1rem;
+}
+.tree3  ul > ul > ul > li {
+    padding-left: 40px;
+}
